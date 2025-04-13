@@ -1,0 +1,1 @@
+This repository shows a bug with eframe where the previous window remains (and cannot be closed) until the "run_native" method is called again, upon which it is replaced. Or the application exits, which is not always desirable.
