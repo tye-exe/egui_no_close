@@ -3,7 +3,7 @@ use std::time::Duration;
 fn main() {
     loop {
         eframe::run_native(
-            "Gui Timer",
+            "Egui No Close",
             eframe::NativeOptions::default(),
             Box::new(|cc| Ok(Box::new(MyApp))),
         )

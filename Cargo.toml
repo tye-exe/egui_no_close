@@ -1,11 +1,11 @@
 [package]
-name = "gui_timer"
+name = "egui_no_close"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 egui = "0.31.1"
-eframe = { version = "0.31.1", features = ["persistence"] }
+eframe = { version = "0.31.1" }
 
 [patch.crates-io]
 egui = { git = "https://github.com/emilk/egui", branch = "master" }
